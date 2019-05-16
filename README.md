@@ -20,8 +20,8 @@ View able PDFs in HTML allowing cross communication with JS and AcrobatJS for au
 * MEL[1]
 
 
-## Versioning
-
+## Version
+V1.0
 
 ## Authors
 
