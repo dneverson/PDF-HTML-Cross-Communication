@@ -6,7 +6,8 @@ View able PDFs in HTML allowing cross communication with JS and AcrobatJS for au
 - AdobeJS API only works in Internet Explorer
   - This is an issue with Adobe
 - Comment out  GE Centricity CPS Function Libraries in pdfViewer.html to avoid errors.
-  - this will function both in (with proper libaries) and out of Centricity.  
+  - this will function both in (with proper libaries) and out of Centricity.
+  - Centricity CPS 12.3 or higher.
 - Needs to run on a webserver for AngularJS to work properly.
 
 
