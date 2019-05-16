@@ -1,0 +1,48 @@
+<!--
+/*=========================================================================
+* @author Derry Everson
+*
+* Work:
+** https://www.catalystmedicalgroup.com
+** deverson@valleymedicalcenter.com
+* Personal:
+** https://www.arachnidserver.com
+** dneverson@lcmail.lcsc.edu
+*
+* Date: 05/16/2019
+*========================================================================*/
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="pdfApp">
+<head>
+  <title></title>
+  <meta http-equiv="PRAGMA" content="NO-CACHE" />
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+
+  <!-- CDN -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.7/angular.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+  <!-- Custom -->
+  <script src="js/pdfViewer.js" type="text/javascript"></script>
+  <script src="js/MEL_API.js" type="text/javascript"></script> <!-- GE Centricity CPS Function Library -->
+  <script src="js/MEL_Functions.js" type="text/javascript"></script> <!-- GE Centricity CPS Function Library -->
+  <script src="js/External_Functions.js" type="text/javascript"></script> <!-- GE Centricity CPS Function Library -->
+  <link rel="stylesheet" href="css/pdfViewer.css">
+</head>
+
+<body ng-controller="pdfController">
+  <div id="btnWrapper">
+    <a class="btn btn-primary" href="docs/OrthoticBrace.pdf" target="_blank"><i class="glyphicon glyphicon-download-alt"></i> Download PDF</a>
+    <button class="btn btn-primary" ng-click="sendMessage(patient)"><i class="glyphicon glyphicon-import"></i> Import Data</button>
+    <button class="btn btn-primary" ng-click="printToChart()"><i class="glyphicon glyphicon-print"></i> Print to Chart</button>
+  </div>
+
+  <div id="PDFWrapper" ng-init="initPDF()"></div>
+
+</body>
+
+</html>

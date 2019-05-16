@@ -1,0 +1,11 @@
+#btnWrapper{
+  display: flex;
+  justify-content: center;
+}
+#PDFObject{
+    position: fixed;
+    top: 33px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }
