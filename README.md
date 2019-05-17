@@ -1,5 +1,5 @@
 # PDF-HTML-Cross-Communication
-View able PDFs in HTML allowing cross communication with JS and AcrobatJS for auto filling data and extraction of data in both directions (IE Only, Adobe API Issue) 
+Embed PDFs in the web browser allowing cross communication via JS and AcrobatJS. Enabling injection of data, auto fill capabilities,   and extraction of data in both directions (IE Only). 
 
 ![GitHub Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=plastic)
 ![GitHub](https://img.shields.io/github/license/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
@@ -11,8 +11,8 @@ View able PDFs in HTML allowing cross communication with JS and AcrobatJS for au
 
 ## Getting Started
 
-- AdobeJS API only works in Internet Explorer
-  - This is an issue with Adobe
+- Communication from an embedded pdf to the browser only works in Internet Explorer
+  - This is an issue with Adobe AcrobatJS API
 - Comment out GE Centricity CPS Function Libraries in pdfViewer.html to avoid errors.
   - this will function both in (with proper libaries [1]) and out of Centricity.
   - Centricity CPS 12.3 or higher.
