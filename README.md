@@ -1,5 +1,5 @@
 # PDF-HTML-Cross-Communication
-Embed PDFs in the web browser allowing cross communication via JS and AcrobatJS. Enabling injection of data, auto fill capabilities,   and extraction of data in both directions (IE Only). 
+Embed PDFs in the web browser allowing cross communication via JS and AcrobatJS. Enabling import/injection of data, auto fill capabilities, and export/extraction of data in both directions (Web browser <--> PDF)(IE Only). 
 
 ![GitHub Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=plastic)
 ![GitHub](https://img.shields.io/github/license/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
