@@ -3,7 +3,7 @@ View able PDFs in HTML allowing cross communication with JS and AcrobatJS for au
 
 ![GitHub Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=plastic)
 ![GitHub](https://img.shields.io/github/license/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
 ![GitHub issues](https://img.shields.io/github/issues/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/dneverson/PDF-HTML-Cross-Communication.svg?style=plastic)
